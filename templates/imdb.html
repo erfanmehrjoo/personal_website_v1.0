@@ -1,0 +1,24 @@
+{% extends "index.html" %}
+{% block body %}
+<html>
+    <table class="table">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Score</th>
+            <th scope="col">More</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            {% for i in title %}
+            <td>{{ i }}</td>
+            <td>{{ score[count] }}</td>
+            <td>@mdo</td>
+          </tr>
+          {% set count = count + 1 %}
+          {% endfor %}
+        </tbody>
+      </table>
+</html>
+{% endblock  %}

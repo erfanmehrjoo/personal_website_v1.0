@@ -1,0 +1,24 @@
+{% extends "index.html" %}
+{% block body %}
+<div>
+<center>
+<form>
+    <div class="form-group">
+      <label for="name">name</label>
+      <input type="name" class="form-control" id="name" aria-describedby="name" placeholder="name">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group">
+      <label for="lastname">lastname</label>
+      <input type="radio" class="form-control" id="lastname" placeholder="lastname">
+    </div>
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</center>
+</div>
+
+{% endblock %}

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <style>
+
+      </style>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+        <title>Erfan mehrjoo | main page</title>
+        <meta charset="UTF-8">
+        <meta name="descriptions" content="erfan mehrjoo weblog">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body class="d-flex flex-column min-vh-100">
+        <header>
+          <!-- NAVBAR-->
+<nav class="navbar navbar-expand-lg py-3 navbar-dark bg-dark shadow-sm">
+  <div class="container">
+    <a href="#" class="navbar-brand">
+      <!-- Logo Image -->
+      <img src="https://media1.giphy.com/media/iGFB7dqhtTNX53Idgm/giphy.gif" width="45" alt="" class="d-inline-block align-middle mr-2">
+      <!-- Logo Text -->
+      <span class="text-uppercase font-weight-bold">Mr.robot</span>
+    </a>
+
+    <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+
+    <div id="navbarSupportedContent" class="collapse navbar-collapse">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active"><a href="{{ url_for('main') }}" class="nav-link">Home <span class="sr-only"></span></a></li>
+        <li class="nav-item"><a href="{{ url_for('about') }}" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="{{ url_for('imdb') }}" class="nav-link">Imdb</a></li>
+        <li class="nav-item"><a href="{{ url_for('contact') }}" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  </div>
+</section>
+        </header>
+        {% block body %}
+        <main>  
+          <div class="container my-4">
+
+            <p class="font-weight-bold">Hi my name is erfan mehrjoo and i am really intersted in coding stuff <code>print("hello world!) </code>you can find a several eay to connect to me on this specifict website</p>
+        
+            <p><strong>I just make this website for mu own barnding stuff. mtbe in duture i will make the huge company and i need to interduce my self to the lot of people.<a href="https://mdbootstrap.com/docs/standard/utilities/borders/"></a>
+            <hr class="mt-5">
+        
+            <p>Built with <h6>I will put my most famous social medi on this text bellow.<h6> - social kit update</p>
+        
+          <a class="btn btn-primary me-2" href="https://mdbootstrap.com/docs/standard/getting-started/installation/" target="_blank" role="button">Download MDB UI KIT <i class="fa fa-download"></i></a>
+          <a class="btn btn-danger me-2" target="_blank" href="https://mdbootstrap.com/docs/standard/" role="button">Learn more</a>
+          <a class="btn btn-success me-2" target="_blank" href="https://mdbootstrap.com/docs/standard/getting-started/" role="button">Tutorials</a>
+          <a class="btn btn-dark me-2" target="_blank" href="https://github.com/mdbootstrap/mdb-ui-kit" role="button">GitHub <i class="fa fa-github ms-2"></i></a>
+        
+          <hr class="mb-5"/>
+          <div class="bg-light d-flex justify-content-between">
+            <div><iframe width="560" height="315" src="https://www.youtube.com/embed/o0XbHvKxw7Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <div><iframe width="560" height="315" src="https://www.youtube.com/embed/rfscVS0vtbw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+          </div>
+          <div class="bg-light d-flex justify-content-between">
+            <div><iframe width="560" height="315" src="https://www.youtube.com/embed/Nn7EX3zkGUo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <div><iframe width="560" height="315" src="https://www.youtube.com/embed/01sAkU_NvOY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        </div>
+        </main>
+        {% endblock %}
+
+        <footer class="mt-auto" 
+        >
+          <!-- Footer -->
+<footer class="text-center text-lg-start bg-dark text-muted">
+  <!-- Section: Social media -->
+  <section
+    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+  >
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with me on social networks:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="https://twitter.com/MehrjooErfan" class="me-4 text-reset" target="_blank">
+        <i class="fab fa-twitter"><img src="https://seeklogo.com/images/T/twitter-logo-A84FE9258E-seeklogo.com.png" style="height: 40px;"></i>
+      <a href="https://www.instagram.com/mehrjooerfan/" class="me-4 text-reset" target="_blank">
+        <i class="fab fa-instagram"><img src="https://seeklogo.com/images/I/instagram-logo-1494D6FE63-seeklogo.com.png" style="height: 40px;"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/erfan-mehrjoo-132983209/" class="me-4 text-reset" target="_blank">
+        <i class="fab fa-linkedin"><img src="https://seeklogo.com/images/L/linkedin-new-2020-logo-E14A5D55ED-seeklogo.com.png" style="height: 40px;"></i>
+      </a>
+      <a href="https://github.com/erfanmehrjoo/" class="me-4 text-reset" target="_blank">
+        <i class="fab fa-github"><img src="https://seeklogo.com/images/G/github-logo-9BBCA663A4-seeklogo.com.png" style="height: 40px;"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>describe my self
+          </h6>
+          <p>
+            Here you can use rows and columns to organize your footer content. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Products
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Angular</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">React</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Vue</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Laravel</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Pricing</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Settings</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Orders</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Help</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Contact
+          </h6>
+          <p><i class="fas fa-home me-3"></i> Tehran, bartloo 71, IR</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            e.mehrjoo.e@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 098 910 7629 144</p>
+          <p><i class="fas fa-print me-3"></i> + 098 905 0165 233</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2022 Copyright:
+    <a class="text-reset fw-bold" href="https://www.linkedin.com/in/erfan-mehrjoo-132983209/">My linkedin</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+        </footer>
+    </body>
+</html>
+
